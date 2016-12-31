@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/change_email"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Change Email" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Home" />
+        <item
+            android:id="@+id/change_password"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/send_password_reset_email"
+            android:icon="@drawable/ic_menu_send"
+            android:title="reset_email" />
+        <item
+            android:id="@+id/remove_user"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Remove_user" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Log_out"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log_out" />
+        </menu>
+    </item>
+
+</menu>
